@@ -1,0 +1,200 @@
+@media screen and (min-width: 769px) {
+
+    html{
+    font-size: 62.5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    body{
+    background: #e9f6f9;
+    }
+
+    /* Haut de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    nav{
+        display: flex;
+        gap: 50px;
+    }
+
+    .box-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+        padding: 20px;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+
+    .logo{
+        width: 79px;
+        height: 72px;
+        border-radius: 50%;
+    }
+
+    .donation{
+        background: #e9f6f9;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+        color: #067c92;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+
+    }
+
+    .networks{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: #e9f6f9;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #e9f6f9;
+    }
+
+    button {
+        border: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    /* transition des événements >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    .div-event{
+        height: 40px;
+        width: 70%;
+        overflow: hidden;
+        margin: 2rem 0;
+        transition: all 1s ease-out 0s;
+
+    }
+
+    .div-event:hover{/* faire de difference :hover si le texte n'est    pas de la même */
+        transition: all 1s ease-out 0.78s;
+        height: 15rem;
+        background: #067c92;
+        color: #e9f6f9;
+        border-radius: 10px;
+        font-size: 1.3rem;
+    }
+
+    /* CSS pour le main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    article{
+        display: flex;
+        flex-direction: column ;
+        margin: 50px 25px;
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+
+
+    /* CSS Pou la parie des sponsors >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    aside{
+        display: flex;
+        flex-direction: column ;
+        margin: 50px 25px;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .tittle-aside{
+        font-size: 2.4rem;
+    }
+
+    h3{
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .sponsor{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .sponsor>a{
+        color: black;
+    }
+
+    .sponsor:hover, .sponsor>a:hover{
+        color: #067c92;
+    }
+
+    /* Pied de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+
+    .fight-virus{
+        text-align: center;
+        padding: 3rem;
+    }
+    .fight-virus>a{
+        color: #e9f6f9;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 3rem;
+    }
+
+    #contact{/* je dois le supprimer l'ID du DOM mais ce n'est pas     le context de l'évaluation*/
+        display: flex;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    ul{
+        list-style: none;
+    }
+    li>a{
+        color: #e9f6f9;
+
+    }
+}
+
+
+/*PETIT FORMAT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+    

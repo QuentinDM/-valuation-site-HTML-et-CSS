@@ -1,0 +1,230 @@
+/* Format Moyen >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media screen and (min-width: 426px) and (max-width: 928px) {
+    html{
+        font-size: 62.5%;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    body{
+        background: #e9f6f9;
+    }
+    
+    /*Haut de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    nav{
+        gap: 50px;
+    }
+    
+    .box-header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        padding: 20px;
+        margin: 0 5% 0 5%;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+    
+    .logo{
+        width: 79px;
+        height: 72px;
+        border-radius: 50%;
+        margin-bottom: 3rem;
+        
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #e9f6f9;
+    }
+
+    .donation{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: #e9f6f9;
+        border-radius: 5px;
+        margin-top: 3rem;
+        padding: 10px;
+        color: #067c92;
+        font-size: 2rem;
+        gap: 2rem;
+        
+    }
+
+    button {
+        border: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    /* CSS pour le main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    main{
+        margin: 3rem 10%;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .tittle{
+        line-height: 3rem;
+        border-bottom: solid #067c92 2px;
+        padding-bottom: 2rem;
+        margin: 4rem 0;
+    }
+    
+    /* CSS pour ma première section >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    .container{
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+        border-bottom: solid #067c92 2px;
+    }
+
+    strong{
+        color: #3bb2cc;
+    }
+    
+    .i{
+        margin-top: 2rem;
+    }
+
+    /* css de ma deuxième sections >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+    .conteiner-two{
+        background: #029fc294;
+        box-shadow: 10px 10px 20px rgb(0, 55, 80);
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    .grid{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template: 1fr repeat(2, 1fr) / repeat(2, 1fr);
+        gap: 1rem;
+        color: #e9f6f9;
+        padding: 5rem;
+        font-weight: 500;
+        
+    }
+
+    b{
+        color: #067c92;
+    }
+    
+    .grid>h2{
+        grid-area: 1 / 1 / 2 / 3;
+        line-height: 3rem;
+        color: #e9f6f9;
+    }
+    
+    .first{
+        grid-area: 2 / 1 / 3 / 2;
+    
+    }
+    
+    .second{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    
+    .third{
+        grid-area: 3 / 1 / 4 / 2;
+    
+    }
+    
+    .fourth{
+        grid-area:  3 / 2 / 4 / 3;
+    }
+
+    /* video element >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+    }
+    
+    iframe{
+        width: 426px;
+    }
+
+    /* Pied de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 2rem 5% 0 5%;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+    
+    .fight-virus{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .fight-virus>a{
+        color: #e9f6f9;
+    }
+    
+    #contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25%;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+        border-top: solid #e9f6f9 1px;
+        padding: 1.5rem;
+    }
+    
+    .networks{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 5px;
+        font-size: 2rem;
+        color: #e9f6f9;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+        border-top: solid #e9f6f9 1px;
+        
+    }
+    
+    li{
+        padding-top: 2rem;
+    }
+
+    li>a{
+        color: #e9f6f9;
+        
+    }
+
+    .address{
+        border-top: solid #e9f6f9 1px;
+    }
+
+}

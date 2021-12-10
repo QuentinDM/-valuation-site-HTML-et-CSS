@@ -1,0 +1,180 @@
+/*PETIT FORMAT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+@media screen and (max-width: 426px) {
+
+    body{
+        background: #e9f6f9;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    html{
+        font-size: 62.5%;
+    }
+
+    /*Haut de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    nav{
+        display: flex;
+        gap: 40px;
+        
+    }
+
+    .networks{
+        display: none;
+    }
+    
+    .logo{
+        display: none;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #e9f6f9;
+    }
+    
+    .box-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        padding: 20px;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+
+    button{
+        background: #067c92;
+        border: #e9f6f9 solid 2px;
+        color: #e9f6f9;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    img{
+        display: none;
+    }
+    /* CSS pour le main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    
+    main{
+        margin: 3rem 10%;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+    
+    .tittle{
+        line-height: 3rem;
+        border-bottom: solid #067c92 2px;
+        padding-bottom: 2rem;
+        margin: 4rem 0;
+    }
+    
+    /* CSS pour ma première section >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    .container{
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+        border-bottom: solid #067c92 2px;
+    }
+
+    strong{
+        color: #3bb2cc;
+    }
+    
+    .i{
+        margin-top: 2rem;
+    }
+
+    /* css de ma deuxième sections >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1rem;
+        line-height: 16px;
+        margin-bottom: 4rem;
+    }
+    
+    b{
+        color: #3bb2cc;
+    }
+
+    /* video element >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+    }
+    
+    iframe{
+        width: 320px;
+    }
+
+    /* Pied de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+    
+    .fight-virus{
+        text-align: center;
+        margin: 2rem 2rem;
+    }
+    .fight-virus>a{
+        color: #e9f6f9;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+        border-top: solid #e9f6f9 1px;
+        padding: 1.5rem;
+    }
+    
+    .networks{
+        display: none;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+        border-top: solid #e9f6f9 2px;
+        
+    }
+    
+    li{
+        padding-top: 2rem;
+    }
+
+    li>a{
+        color: #e9f6f9;
+        
+    }
+
+    .address{
+        border-top: solid #e9f6f9 2px;
+    }
+
+}

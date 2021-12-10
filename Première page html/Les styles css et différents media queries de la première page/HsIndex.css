@@ -1,0 +1,266 @@
+@media screen and (min-width: 929px) {
+    
+    html{
+        font-size: 62.5%;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    body{
+        background: #e9f6f9;
+    }
+
+    /*Haut de page  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    nav{
+        display: flex;
+        gap: 50px;
+    }
+
+    .box-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+        padding: 20px;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+
+    .logo{
+        width: 79px;
+        height: 72px;
+        border-radius: 50%;
+    }
+
+    .donation{
+        background: #e9f6f9;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+        color: #067c92;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;  
+    }
+
+    .networks{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: #e9f6f9;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #e9f6f9;
+    }
+
+    button {
+        border: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    /* CSS pour le main     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    .tittle{
+        background-image: url(../../Img/Image-background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 2px 5px 10px rgb(113, 114, 114);
+        color: #ffffff;
+        height: 250px;
+    }
+
+    h1{
+        position: relative;
+        top: 68%;
+        left: 2rem;
+        font-size: 2.3rem;
+    }
+
+    /* CSS pour ma première section     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    .container{
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .organism{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.2rem 20% 0 20%;
+
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .organism>div{
+        margin-top: 5px;
+        font-size: 1.5rem;
+    }
+
+/* CSS pour ma deuxième section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    .conteiner-two{
+        background: #029fc294;
+        box-shadow: 2px 5px 10px rgb(0, 55, 80);
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    .grid{
+        display: grid;
+        justify-content: center;
+        grid-template: 50px repeat(2, 25rem) /     repeat(2, 40rem);
+        margin: 0 5% 0 5%;
+        padding-bottom: 5.5rem;
+        gap: 55px;
+        color: #ffffff;
+        font-size: 1.6rem;
+        font-weight: 500;
+    
+    }
+
+    .grid>h2{
+        grid-area: 1 / 1 / 2 / 3;
+        text-align: center;
+        color: #e9f6f9;
+    }
+
+    .first{
+        grid-area: 2 / 1 / 3 / 2;
+        background-position: center;
+        background-size: cover;
+         background-repeat: no-repeat;
+        background-image: url(../../Img/Image-stat.jpg);
+        box-shadow: 0 0 0 200px rgba(0, 88, 84, 0.3) inset;
+
+    }
+
+    .second{
+        grid-area: 2 / 2 / 3 / 3;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../../Img/Image-enfant-cherchant-eau.jpg);
+        box-shadow: 0 0 0 200px rgba(0, 88, 84, 0.3) inset;
+    }
+
+    .third{
+        grid-area: 3 / 1 / 4 / 2;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../../Img/Enfant.jpg);
+        box-shadow: 0 0 0 200px rgba(0, 88, 84, 0.2)inset;
+
+    }
+
+    .fourth{
+        grid-area:  3 / 2 / 4 / 3;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../../Img/water-gd08a212c3_640.jpg);
+        box-shadow: 0 0 0 200px  rgba(0, 88, 84, 0.3)inset;
+    } 
+
+    .grid>div>.position{
+        position: relative;
+        top: 60%;
+        text-align: center;
+        vertical-align: text-bottom;
+        font-weight: bold;
+    }
+
+    /* video element >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0.2rem 20% 0 20%;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-size: 1.5rem;
+    }
+
+    strong{
+        color: #3bb2cc;
+    }
+
+    span>a{
+        background-color: #3bb2cc;
+        color: #e9f6f9;
+        text-decoration: none;
+    }
+
+    iframe{
+        box-shadow: 2px 5px 10px rgb(113, 114, 114);
+        margin-top: 2rem;
+    }
+
+    /* Pied de page     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+
+    .fight-virus{
+        text-align: center;
+        padding: 3rem;
+    }
+    .fight-virus>a{
+        color: #e9f6f9;
+    }
+
+    #contact{/* je dois le supprimer l'ID du DOM mais   ce n'est pas     le context de l'évaluation*/
+            display: flex;
+            align-items: center;
+            gap: 10rem;
+        }
+
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding: 3rem;
+    }
+
+    ul{
+        list-style: none;
+    }
+    li>a{
+        color: #e9f6f9;
+    }
+}
+

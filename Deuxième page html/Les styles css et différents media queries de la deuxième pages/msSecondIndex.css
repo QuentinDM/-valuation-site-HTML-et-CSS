@@ -1,0 +1,188 @@
+/* Format Moyen >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    html{
+        font-size: 62.5%;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    body{
+        background: #e9f6f9;
+    }
+    
+    /*Haut de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    nav{
+        gap: 50px;
+    }
+    
+    .box-header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin: 0 5% 0 5%;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+    
+    .logo{
+        width: 79px;
+        height: 72px;
+        border-radius: 50%;
+        margin-bottom: 3rem;
+        
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #e9f6f9;
+    }
+
+    .donation{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: #e9f6f9;
+        border-radius: 5px;
+        margin-top: 3rem;
+        padding: 10px;
+        color: #067c92;
+        font-size: 2rem;
+        gap: 2rem;
+    }
+    
+    .networks{
+        display: none;
+    }
+
+    button {
+        border: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    /* Css pour le main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    main{
+        margin: 3rem 10%;
+    }
+
+    h1{
+        color: #024450;
+        font-size: 2.4rem;
+    }
+    .div-event{
+        margin: 3rem 0;
+        line-height: 1.8rem;
+        font-size: 1.3rem;
+    }
+
+    h2{
+        color: #024450;
+    }
+
+    aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        border-top: solid #067c92 1px;
+    }
+
+    .group{
+        margin: 2rem;
+
+    }
+
+    /* CSS pour la partie des sponsors >>>>>>>>>>>>>>>>>>>>*/
+
+    .sponsor{
+        border-top: solid #067c92 1px;
+        padding: 1rem;
+        color: #067c92;
+    }
+    
+    .border {
+        border-top: none;
+    }
+    
+
+    .sponsor>a{
+        color: #067c92;
+    }
+
+
+    /* Pied de page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 2rem 5% 0 5%;
+        font-size: 1.6rem;
+        color: #e9f6f9;
+        font-weight: 500;
+        background: #067c92;
+        box-shadow: 2px 5px 10px #024450;
+    }
+    
+    .fight-virus{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .fight-virus>a{
+        color: #e9f6f9;
+    }
+    
+    #contact{
+        display: flex;
+        align-items: center;
+        gap: 25%;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+        border-top: solid #e9f6f9 1px;
+        padding: 1.5rem;
+    }
+    
+    .networks{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 5px;
+        font-size: 2rem;
+        color: #e9f6f9;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+        border-top: solid #e9f6f9 1px;
+        
+    }
+    
+    li{
+        padding-top: 2rem;
+    }
+
+    li>a{
+        color: #e9f6f9;
+        
+    }
+
+    .address{
+        border-top: solid #e9f6f9 1px;
+    }
+
+}
